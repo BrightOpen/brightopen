@@ -1,8 +1,7 @@
-baseURL = "https://brightopen.github.io/brightopen/"
+baseURL = "https://brightopen.github.io/"
 languageCode = "en-us"
 title = "BrightOpen"
 theme = "anybodyhome"
-publishDir = "docs"
 
 [params]
   subtitle = "Bright world with open solutions"

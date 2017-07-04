@@ -10,26 +10,26 @@ What about log4net and friends? I love log4net. I love it so much I have made a 
 LogAway has grown pretty stable and useful on me. It embraces both fluent and DI approach while the ILog extension methods are just thin wrappers for adapters:
 
 ```csharp
-        [Fact]
-        public FunkyLogging FunkyExtensions()
-        {
-            // fluent style
-            var log =
-                (null as ILog)
-                .OrConsole()
-                .Timed()
-                .Seq()
-                .Pid()
-                .Host()
-                .Evident("This","is","that")
-                .For(this)
-                .Member()
-                .Section("wow");
+[Fact]
+public FunkyLogging FunkyExtensions()
+{
+    // fluent style
+    var log =
+        (null as ILog)
+        .OrConsole()
+        .Timed()
+        .Seq()
+        .Pid()
+        .Host()
+        .Evident("This","is","that")
+        .For(this)
+        .Member()
+        .Section("wow");
 
-            log.Write("That's funky, too");
+    log.Write("That's funky, too");
 
-            return this;
-        }
+    return this;
+}
 ```
 
 Each of those extension methods wraps the parent log with some added context or functionality. For instance Seq() adds statically unique sequentially incremented number to your logs. Combine that with host and pid information and you've got a neat unique log entry identifier that actually carries useful information (unlike GUIDs).
