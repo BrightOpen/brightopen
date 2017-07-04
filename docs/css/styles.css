@@ -1,4 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Lobster|Quicksand|Cutive+Mono';
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(lobster.ttf) format('truetype');
+}
 
 body {
   width: 600px;
