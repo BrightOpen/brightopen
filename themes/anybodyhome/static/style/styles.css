@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lobster'), local('Lobster-Regular'), url(lobster.ttf) format('truetype');
-}
+@import 'fonts.css';
 
 body {
   width: 600px;
@@ -35,8 +30,15 @@ a:hover {
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.8;
   text-align: justify;
+  margin-top: 0.5em;
+  text-indent: 1em;
+}
+
+pre {
+  font-family: 'Courier New', monospace;
+    
 }
 
 section#header {
