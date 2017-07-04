@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <base href="{{ .Site.BaseURL }}">
+
+    <title>{{ .Site.Title }}</title>
+
+    <link
+      rel="canonical"
+      href="{{ .Permalink }}"
+    />
+
+    <link
+      href="{{ .RSSLink }}"
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ .Site.Title }}"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/reset-2.0-min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/highlight-9.6.0-min.css"
+    />
+    <script
+      src="script/highlight-9.6.0-min.js">
+    </script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/styles.css"
+    />
+</head>
