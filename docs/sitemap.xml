@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://brightopen.github.io/post/logaway/</loc>
+    <loc>https://brightopen.github.io/brightopen/post/logaway/</loc>
     <lastmod>2017-07-04T21:29:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://brightopen.github.io/</loc>
-    <lastmod>2017-07-04T21:29:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://brightopen.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://brightopen.github.io/post/</loc>
+    <loc>https://brightopen.github.io/brightopen/</loc>
     <lastmod>2017-07-04T21:29:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://brightopen.github.io/tags/</loc>
+    <loc>https://brightopen.github.io/brightopen/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brightopen.github.io/brightopen/post/</loc>
+    <lastmod>2017-07-04T21:29:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brightopen.github.io/brightopen/tags/</loc>
     <priority>0</priority>
   </url>
   
