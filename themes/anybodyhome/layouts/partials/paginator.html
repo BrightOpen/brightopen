@@ -1,12 +1,12 @@
-<section id="paginator">
+<nav class="pages">
 {{ if .Paginator.HasPrev }}
     <a id="previous" href="{{ .Paginator.Prev.URL }}">
         Previous Page
     </a>
 {{ end }}
 {{ if .Paginator.HasNext }}
-    <a id="next" href="{{ .Paginator.Next.URL }}">
+    <a class="next" href="{{ .Paginator.Next.URL }}">
         Next Page
     </a>
 {{ end }}
-</section>
+</nav>

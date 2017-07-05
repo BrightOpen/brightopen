@@ -1,9 +1,13 @@
-<section class="summary">
-  <h2>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h2>
-  <time>{{ .Date.Format "2. January, 2006"}}</time>
-  <article>
+
+<article class="summary">
+    <header>
+        <h2>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        <time>{{ .Date.Format "2. January, 2006"}}</time>
+    </header>
     <p>{{ .Summary }}</p>
-  </article>
-</section>
+    <nav class="more">
+        <a class="next" href="{{ .RelPermalink }}">The whole story...</a>
+    </nav>
+</article>
